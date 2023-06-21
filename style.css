@@ -124,4 +124,6 @@ img{
     width: 17vw;
     transform: translateX(1.5%);
     display: flex; 
+    align-items: center;
+    justify-content: center;
 }
