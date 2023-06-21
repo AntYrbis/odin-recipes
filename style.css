@@ -185,10 +185,9 @@ img{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    bottom: 2%;
-    right: 50%;
     transform: translate(50%);
     width: 60%;
+    height: 50%;
 }
 
 .footer_descritption_container{
