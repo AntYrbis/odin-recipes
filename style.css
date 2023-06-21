@@ -48,6 +48,7 @@ body {
 #header {
     display: flex; 
     flex-direction: column;
+    grid-row: 1;
 }
 
 /* Dealing with the Texts */
@@ -118,6 +119,7 @@ img{
     border: 0.25vw dotted rgb(243, 221, 124);
     border-radius: 1em;
     display: flex;
+    grid-row: 3;
 }
 
 .footer_descritption_container{
