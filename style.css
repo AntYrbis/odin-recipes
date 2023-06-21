@@ -13,7 +13,8 @@ html{
     background: linear-gradient(180deg, rgb(182, 159, 97), rgb(128, 89, 24));
 }
 
-body {
+/*Grids Template*/
+#index_body{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 10px;
