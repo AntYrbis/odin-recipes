@@ -61,6 +61,37 @@ img{
     animation: intro 2s forwards;
 }
 
+#descriptionContainer   {
+    position: absolute;
+    border: 0.25vw dotted white;
+    border-radius: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    bottom: 2%;
+    right: 50%;
+    transform: translate(50%);
+    width: 60%;
+    opacity: 0;
+    animation: fadeIn 2s forwards;
+    animation-delay: 2.6s;
+}
+
+#Footer {
+    display: block;
+    color: white;
+    font-size: 1vw;
+    margin-top: 0.5vw;
+}
+
+#TOP    {
+    margin: 0.5vw 0;
+    width: 17vw;
+    display: block;
+    transform: translateX(1.5%);
+}
+
 @font-face {
     font-family: "Norse";
     src: url(resources/Norse.otf);
