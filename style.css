@@ -22,6 +22,15 @@ body {
     height: 100vh;
 }
 
+.recipe_body{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-gap: 10px;
+    margin: 0px;
+    position: relative;
+    height: 100vh;
+}
+
 /* Grid Span and positionning containers*/
 #left{
     grid-column: 1;
