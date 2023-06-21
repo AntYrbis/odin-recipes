@@ -71,12 +71,10 @@ body {
     letter-spacing: 0.04em;
     text-transform: uppercase;
     margin-bottom: -5px;
-    font-size: 5vw;
+    font-size: 3vw;
     text-align: center;
     color:rgb(236, 218, 139);
     bottom: 2vw;
-    opacity: 0;
-    animation: intro 2s forwards;
 }
 
 .subtitle_description{
