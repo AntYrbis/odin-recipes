@@ -17,7 +17,7 @@ html{
 /*Grids Template*/
 #index_body{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 10px;
     margin: 0px;
     position: relative;
@@ -83,7 +83,7 @@ html{
     letter-spacing: 0.04em;
     text-transform: uppercase;
     font-size: 2vw;
-    color:rgb(187, 127, 17);
+    color:rgb(236, 218, 139);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -133,7 +133,7 @@ img{
 
 .img_contour{
     height: 30vh;
-    border: 0.25vw dotted rgb(243, 221, 124);
+    border: 0.25vw dotted rgb(187, 127, 17);
 }
 
 /* TOP footer */
@@ -168,7 +168,7 @@ img{
     display: flex;
     align-items: center;
     flex-direction: column;
-    grid-row: 4;
+    grid-row: 3;
 }
 
 #Footer {
