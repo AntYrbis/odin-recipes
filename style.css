@@ -38,7 +38,6 @@ body {
     flex-direction: column;
     text-align: center;
     height: 100vh;
-    grid-template-rows: repeat(4,1fr);
 }
 
 #right {
@@ -113,6 +112,11 @@ img{
 }
 
 /* TOP footer */
+#mainmiddle{
+    display: grid;
+    grid-template-rows: repeat(4,1fr);
+}
+
 #Footer {
     border: 0.25vw dotted rgb(243, 221, 124);
     border-radius: 1em;
