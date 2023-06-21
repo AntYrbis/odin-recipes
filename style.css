@@ -116,12 +116,18 @@ img{
     height: 100vh;
 }
 
+#footer_container{
+    display: flex;
+    flex-direction: column;
+    grid-row: 3;
+}
+
 #Footer {
     border: 0.25vw dotted rgb(243, 221, 124);
     border-radius: 1em;
     display: flex;
-    flex-direction: column;
-    grid-row: 3;
+    align-items: center;
+    justify-content: center;
 }
 
 .footer_descritption_container{
