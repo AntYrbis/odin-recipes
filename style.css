@@ -48,7 +48,6 @@ body {
 #header {
     display: flex; 
     flex-direction: column;
-    grid-row: 1;
 }
 
 /* Dealing with the Texts */
@@ -111,15 +110,14 @@ img{
 /* TOP footer */
 #mainmiddle{
     display: grid;
-    grid-template-rows: repeat(4fr,1fr);
+    grid-template-rows: repeat(3fr,1fr);
     height: 100vh;
 }
 
 #Footer {
     border: 0.25vw dotted rgb(243, 221, 124);
     border-radius: 1em;
-    display: flex; 
-    grid-row: 4;
+    display: flex;
 }
 
 .footer_descritption_container{
