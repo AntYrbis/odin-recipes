@@ -47,6 +47,7 @@ body {
 
 #header {
     position: relative;
+    display: flex; 
 }
 
 /* Dealing with the Texts */
@@ -91,12 +92,12 @@ img{
 #TOP    {
     margin: 0.5vw 0;
     width: 17vw;
-    display: block;
+    display: flex; 
     transform: translateX(1.5%);
 }
 
 #Footer {
-    display: block;
+    display: flex; 
     color: white;
     font-size: 1vw;
     margin-top: 0.5vw;
