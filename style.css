@@ -74,7 +74,12 @@ body {
 }
 
 .footer_description{
-
+    font-family: "Norse";
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    font-size: 0.5vw;
+    text-align: center;
+    color: rgb(221, 198, 97);
 }
 
 /* Images */
