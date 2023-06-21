@@ -127,12 +127,12 @@ html{
 
 /* Images */
 img{
-    height: 30vh;
     border-radius: 10%;
     margin-bottom: 2% ;
 }
 
 .img_contour{
+    height: 30vh;
     border: 0.25vw dotted rgb(243, 221, 124);
 }
 
