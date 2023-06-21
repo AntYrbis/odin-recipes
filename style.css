@@ -94,7 +94,7 @@ html{
     font-family: "Norse";
     letter-spacing: 0.04em;
     text-transform: uppercase;
-    font-size: 5vw;
+    font-size: 4vw;
     color:rgb(236, 218, 139);
     display: flex;
     align-items: center;
@@ -126,6 +126,15 @@ html{
 }
 
 /* Images */
+.imglink{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    grid-row: 2;
+}
+
 img{
     border-radius: 10%;
     margin-bottom: 2% ;
@@ -137,27 +146,6 @@ img{
 }
 
 /* TOP footer */
-#mainleft{
-    display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
-    height: 100vh;
-}
-
-.imglink{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    grid-row: 2;
-}
-
-#mainright{
-    display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
-    height: 100vh;
-}
-
 #mainmiddle{
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
@@ -166,8 +154,8 @@ img{
 
 #footer_container{
     display: flex;
-    align-items: center;
-    flex-direction: column;
+    align-items: end;
+    justify-content: center;
     grid-row: 3;
 }
 
@@ -220,6 +208,6 @@ ul{
     padding: 0; 
 }
 
-li{
+ol>li{
     margin-right: 2%;
 }
