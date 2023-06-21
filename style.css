@@ -46,8 +46,9 @@ body {
 }
 
 #header {
-    display: flex; 
-    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     grid-row: 1;
 }
 
@@ -119,6 +120,7 @@ img{
     border: 0.25vw dotted rgb(243, 221, 124);
     border-radius: 1em;
     display: flex;
+    flex-direction: column;
     grid-row: 3;
 }
 
