@@ -94,7 +94,7 @@ html{
     font-family: "Norse";
     letter-spacing: 0.04em;
     text-transform: uppercase;
-    font-size: 4vw;
+    font-size: 5vw;
     color:rgb(236, 218, 139);
     display: flex;
     align-items: center;
@@ -137,6 +137,30 @@ img{
 }
 
 /* TOP footer */
+#mainleft{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    height: 100vh;
+}
+
+#imgleft{
+    display: flex;
+    flex-direction: column;
+    grid-row: 2;
+}
+
+#imgright{
+    display: flex;
+    flex-direction: column;
+    grid-row: 2;
+}
+
+#mainright{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    height: 100vh;
+}
+
 #mainmiddle{
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
