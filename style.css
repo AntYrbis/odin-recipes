@@ -51,11 +51,11 @@ body {
 
 /* Dealing with the Texts */
 .img_description{
+    text-align: center;
     font-family: "Norse";
     letter-spacing: 0.04em;
     text-transform: uppercase;
     font-size: 1vw;
-    text-align: center;
     color:rgb(236, 218, 139);
     display: flex;
     align-items: center;
@@ -64,40 +64,39 @@ body {
 }
 
 .title_description{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    text-align: center;
     font-family: "Norse";
     letter-spacing: 0.04em;
     text-transform: uppercase;
-    margin-bottom: -5px;
     font-size: 3vw;
-    text-align: center;
     color:rgb(236, 218, 139);
-    bottom: 2vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .subtitle_description{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    text-align: center;
     font-family: "Norse";
     letter-spacing: 0.04em;
     text-transform: uppercase;
-    margin-bottom: -5px;
     font-size: 1vw;
-    text-align: center;
     color: rgb(243, 221, 124);
-    bottom: 2vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .footer_description{
+    text-align: center;
     font-family: "Norse";
     letter-spacing: 0.04em;
     text-transform: uppercase;
     font-size: 0.5vw;
-    text-align: center;
     color: rgb(243, 221, 124);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /* Images */
