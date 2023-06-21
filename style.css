@@ -34,3 +34,14 @@ body    {
     opacity: 0;
     animation: intro 2s forwards;
 }
+
+@font-face {
+    font-family: "Norse";
+    src: url(resources/Norse.otf);
+    
+}
+
+@font-face {
+    font-family: "Architects_Daughter";
+    src: url(resources/architectsDaughter.ttf);
+}
