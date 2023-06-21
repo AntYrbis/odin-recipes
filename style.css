@@ -1,5 +1,13 @@
+/* Imports */
 @import url("https://necolas.github.io/normalize.css/8.0.1/normalize.css");
+/* Fonts*/
+@font-face {
+    font-family: "Norse";
+    src: url(resources/Norse.otf);
+    
+}
 
+/* Main */
 html{
     min-height: 100vh;
     background: linear-gradient(180deg, rgb(182, 159, 97), rgb(128, 89, 24));
@@ -14,6 +22,7 @@ body {
     height: 100vh;
 }
 
+/* Grid Span and positionning containers*/
 #left  {
     grid-column: 1;
     display: flex; 
@@ -36,30 +45,21 @@ body {
     justify-content: space-around;
 }
 
-.img_description{
-    font-family: "Norse";
-    letter-spacing: 0.04em;
-    text-transform: uppercase;
-    font-size: 2vw;
-    text-align: center;
-    color:rgb(236, 218, 139);
-}
-
-img{
-    height: 25px;
-}
-#TOP    {
-    margin: 0.5vw 0;
-    width: 17vw;
-    display: block;
-    transform: translateX(1.5%);
-}
-
 #header {
     position: relative;
 }
 
-#title{
+/* Dealing with the Texts */
+.img_description{
+    font-family: "Norse";
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    font-size: 1vw;
+    text-align: center;
+    color:rgb(236, 218, 139);
+}
+
+.title_description{
     position: relative;
     font-family: "Norse";
     letter-spacing: 0.04em;
@@ -73,14 +73,21 @@ img{
     animation: intro 2s forwards;
 }
 
-#descriptionContainer   {
-    position: absolute;
-    border: 0.25vw dotted white;
-    border-radius: 1em;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+.footer_description{
+
+}
+
+/* Images */
+img{
+    height: 25px;
+}
+
+/* TOP footer */
+#TOP    {
+    margin: 0.5vw 0;
+    width: 17vw;
+    display: block;
+    transform: translateX(1.5%);
 }
 
 #Footer {
@@ -90,14 +97,12 @@ img{
     margin-top: 0.5vw;
 }
 
-#TOP    {
-    margin: 0.5vw 0;
-    width: 17vw;
-    display: block;
-}
-
-@font-face {
-    font-family: "Norse";
-    src: url(resources/Norse.otf);
-    
+#descriptionContainer   {
+    position: absolute;
+    border: 0.25vw dotted white;
+    border-radius: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
