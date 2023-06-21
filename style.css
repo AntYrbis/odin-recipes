@@ -14,16 +14,6 @@ body {
     height: 100vh;
 }
 
-img{
-    height: 25px;
-}
-#TOP    {
-    margin: 0.5vw 0;
-    width: 17vw;
-    display: block;
-    transform: translateX(1.5%);
-}
-
 #left  {
     grid-column: 1/3;
     display: flex; 
@@ -44,6 +34,25 @@ img{
     display: flex; 
     flex-direction: column;
     justify-content: space-around;
+}
+
+.img_description{
+    font-family: "Norse";
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    font-size: 2vw;
+    text-align: center;
+    color:rgb(236, 218, 139);
+}
+
+img{
+    height: 25px;
+}
+#TOP    {
+    margin: 0.5vw 0;
+    width: 17vw;
+    display: block;
+    transform: translateX(1.5%);
 }
 
 #header {
@@ -91,9 +100,4 @@ img{
     font-family: "Norse";
     src: url(resources/Norse.otf);
     
-}
-
-@font-face {
-    font-family: "Architects_Daughter";
-    src: url(resources/architectsDaughter.ttf);
 }
