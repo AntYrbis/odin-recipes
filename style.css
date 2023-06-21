@@ -73,13 +73,6 @@ img{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    bottom: 2%;
-    right: 50%;
-    transform: translate(50%);
-    width: 60%;
-    opacity: 0;
-    animation: fadeIn 2s forwards;
-    animation-delay: 2.6s;
 }
 
 #Footer {
@@ -93,7 +86,6 @@ img{
     margin: 0.5vw 0;
     width: 17vw;
     display: block;
-    transform: translateX(1.5%);
 }
 
 @font-face {
