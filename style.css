@@ -11,6 +11,14 @@ body    {
     box-sizing: border-box;
 }
 
+.img{
+    width: 500;
+}
+
+#header {
+    position: relative;
+}
+
 #middle{
     display: inline-table;
     text-align: center;
@@ -18,9 +26,6 @@ body    {
     transform: translateY(-1.7vw);
 }
 
-#header {
-    position: relative;
-}
 #title{
     position: relative;
     font-family: "Norse";
