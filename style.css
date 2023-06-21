@@ -116,8 +116,11 @@ html{
 img{
     height: 30vh;
     border-radius: 15%;
-    border: 0.25vw dotted rgb(243, 221, 124);
     margin-bottom: 2% ;
+}
+
+.img_contour{
+    border: 0.25vw dotted rgb(243, 221, 124);
 }
 
 /* TOP footer */
@@ -134,7 +137,6 @@ img{
 }
 
 #Footer {
-    border: 0.25vw dotted rgb(243, 221, 124);
     border-radius: 1em;
     display: flex;
     align-items: center;
