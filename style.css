@@ -5,14 +5,13 @@ html{
     background: linear-gradient(180deg, rgb(182, 159, 97), rgb(128, 89, 24));
 }
 
-body    {
+body {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 10px;
-    position: relative;
     margin: 0px;
+    position: relative;
     height: 100vh;
-    box-sizing: border-box;
 }
 
 img{
@@ -27,6 +26,8 @@ img{
 
 #left  {
     grid-column: 1 / 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
     display: flex; 
     flex-direction: column;
     justify-content: space-around;
@@ -35,6 +36,8 @@ img{
 
 #middle{
     grid-column: 1 / 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
     display: flex; 
     flex-direction: column;
     text-align: center;
@@ -42,6 +45,8 @@ img{
 
 #right {
     grid-column: 1 / 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
     display: flex; 
     flex-direction: column;
     justify-content: space-around;
