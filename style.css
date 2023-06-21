@@ -112,7 +112,7 @@ img{
 #mainmiddle{
     height: 100vh;
     display: grid;
-    grid-template-rows: repeat(3fr,1)
+    grid-template-rows: repeat(3fr,1);
 }
 
 #Footer {
