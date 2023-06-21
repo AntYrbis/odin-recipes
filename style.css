@@ -46,7 +46,6 @@ body {
 }
 
 #header {
-    position: relative;
     display: flex; 
 }
 
@@ -85,7 +84,7 @@ body {
 
 /* Images */
 img{
-    height: 25px;
+    height: 10vh;
 }
 
 /* TOP footer */
