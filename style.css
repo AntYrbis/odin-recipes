@@ -110,9 +110,9 @@ img{
 
 /* TOP footer */
 #mainmiddle{
-    display: grid;
-    grid-template-rows: repeat(3fr,1);
     height: 100vh;
+    display: grid;
+    grid-template-rows: repeat(3fr,1)
 }
 
 #Footer {
