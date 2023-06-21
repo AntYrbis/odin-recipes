@@ -116,7 +116,7 @@ html{
 img{
     height: 30vh;
     border-radius: 15%;
-    border: 15% dotted rgb(243, 221, 124);
+    border: 0.25vw dotted rgb(243, 221, 124);
     margin-bottom: 2% ;
 }
 
