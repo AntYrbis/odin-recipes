@@ -83,7 +83,7 @@ html{
     letter-spacing: 0.04em;
     text-transform: uppercase;
     font-size: 2vw;
-    color:rgb(212, 140, 6);;
+    color:rgb(187, 127, 17);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -166,18 +166,19 @@ img{
 
 #footer_container{
     display: flex;
+    align-items: center;
     flex-direction: column;
-    grid-row: 3;
+    grid-row: 4;
 }
 
 #Footer {
     border-radius: 10%;
-    border: 0.25vw dotted rgb(212, 140, 6);
+    border: 0.25vw dotted rgb(187, 127, 17);
     display: flex;
-    align-items: end;
+    align-items: center;
     justify-content: center;
     flex-direction: column;
-    width: 70%;
+    width: 60%;
 }
 
 .footer_descritption_container{
