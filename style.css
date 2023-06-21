@@ -36,6 +36,13 @@ img{
     transform: translateY(-1.7vw);
 }
 
+#right {
+    display: flex; 
+    flex-direction: column;
+    justify-content: space-around;
+    overflow: hidden;
+}
+
 #header {
     position: relative;
 }
