@@ -108,21 +108,20 @@ img{
 }
 
 /* TOP footer */
-#TOP    {
-    margin: 0.5vw 0;
-    width: 17vw;
-    display: flex; 
-    transform: translateX(1.5%);
-}
-
 #Footer {
+    border: 0.25vw dotted rgb(243, 221, 124);
+    border-radius: 1em;
     display: flex; 
-    flex-direction: column;
 }
 
-#descriptionContainer   {
-    border: 0.25vw dotted white;
-    border-radius: 1em;
+.footer_descritption_container{
     display: flex;
     flex-direction: column;
+}
+
+#TOP {
+    margin: 0.5vw 0;
+    width: 17vw;
+    transform: translateX(1.5%);
+    display: flex; 
 }
