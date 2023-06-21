@@ -1,0 +1,36 @@
+html{
+    min-height: 100vh;
+    background: linear-gradient(180deg, rgb(182, 159, 97), rgb(128, 89, 24));
+}
+body    {
+    display: grid;
+    grid-template-columns: 30% 40% 30%;
+    position: relative;
+    margin: 0px;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+#middle{
+    display: inline-table;
+    text-align: center;
+    position: relative;
+    transform: translateY(-1.7vw);
+}
+
+#header {
+    position: relative;
+}
+#title{
+    position: relative;
+    font-family: "Norse";
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    margin-bottom: -5px;
+    font-size: 5vw;
+    text-align: center;
+    color:rgb(236, 218, 139);
+    bottom: 2vw;
+    opacity: 0;
+    animation: intro 2s forwards;
+}
