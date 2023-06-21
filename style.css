@@ -64,6 +64,7 @@ body {
 }
 
 .title_description{
+    display: flex;
     align-items: center;
     justify-content: center;
     font-family: "Norse";
@@ -79,6 +80,7 @@ body {
 }
 
 .subtitle_description{
+    display: flex;
     align-items: center;
     justify-content: center;
     font-family: "Norse";
@@ -104,7 +106,7 @@ body {
 
 /* Images */
 img{
-    height: 20vh;
+    height: 40vh;
 }
 
 /* TOP footer */
