@@ -137,8 +137,8 @@ img{
 }
 
 #Footer {
+    border-radius: 15%;
     border: 0.25vw dotted rgb(243, 221, 124);
-    border-radius: 1em;
     display: flex;
     align-items: center;
     justify-content: center;
