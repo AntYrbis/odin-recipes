@@ -120,7 +120,6 @@ img{
 }
 
 #descriptionContainer   {
-    position: absolute;
     border: 0.25vw dotted white;
     border-radius: 1em;
     display: flex;
